@@ -1,0 +1,47 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+div{
+    border: 1px solid blue;
+}
+
+#logo_letter{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo{
+    display: block;
+    margin-left: 5px;
+    margin-right: auto;
+    width: 60%;
+}
+
+#main_box{
+    display: grid;
+    grid-template-columns: 200px 1fr 300px;
+    height: 100%;
+}
+
+#main_box > #main_left{
+    display: grid;
+    grid-template-rows: 92px 450px 1fr;
+}
+
+#main_left > #menu_block{
+    display: grid;
+    grid-template-rows: 48px 48px 48px 48px 48px 48px 48px 48px;
+}
+
+#main_box > #main_center{
+    display: grid;
+    grid-template-rows: 80px 1fr;
+}
+
+#main_box > #main_right{
+    display: grid;
+    grid-template-rows: 50px 350px 1fr;
+}
